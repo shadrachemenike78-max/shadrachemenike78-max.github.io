@@ -1,11 +1,106 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Shadrach's Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emenike Shedrack - Portfolio</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: 100vh;
+            margin: 0;
+            padding: 40px 20px;
+            box-sizing: border-box;
+            text-align: left;
+        }
+        .container {
+            width: 100%;
+            max-width: 400px;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto 30px auto;
+            border: 2px solid #333;
+        }
+        h1 {
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 1.2;
+            margin: 0 0 20px 0;
+        }
+        p {
+            font-size: 18px;
+            color: #b3b3b3;
+            line-height: 1.5;
+            margin: 0 0 25px 0;
+        }
+        ul {
+            padding-left: 20px;
+            margin: 0 0 35px 0;
+        }
+        li {
+            font-size: 16px;
+            color: #e0e0e0;
+            margin-bottom: 12px;
+            line-height: 1.4;
+        }
+        .btn {
+            background-color: #1a8cff;
+            color: white;
+            border: none;
+            padding: 14px 28px;
+            font-size: 16px;
+            font-weight: 600;
+            border-radius: 6px;
+            cursor: pointer;
+            display: inline-block;
+            text-decoration: none;
+            margin-bottom: 30px;
+        }
+        .btn:active {
+            background-color: #0073e6;
+        }
+        .whatsapp-link {
+            color: #25d366;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 600;
+            display: block;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to Shadrach's Website!</h1>
-    <p>This is my brand new website, hosted live on the internet.</p>
+
+    <div class="container">
+        <!-- Profile Image Placeholder -->
+        <img class="profile-img" src="https://unsplash.com" alt="Emenike Shedrack">
+
+        <h1>Hello, i'm Emenike shedrack</h1>
+        
+        <p>I am starting my web development journey</p>
+
+        <ul>
+            <li>Master HTML & CSS layouts</li>
+            <li>Build interactive mobile apps with JavaScript</li>
+            <li>Launch my own developer portfolio site</li>
+        </ul>
+
+        <button class="btn">Tap me!</button>
+
+        <!-- Replace the '#' with your actual WhatsApp link later -->
+        <a href="#" class="whatsapp-link">Chat with me on WhatsApp</a>
+    </div>
+
 </body>
 </html>
+
